@@ -13,13 +13,6 @@ class App extends Component {
       countries
     }
 
-
-  // getCountryFromCCA3 = (cca3) => {
-  //   return this.state.countries.find(country => {
-  //     return cca3 === country.cca3;
-  //   });
-  // }
-
   render() {
     return (
 
