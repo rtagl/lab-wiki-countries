@@ -22,6 +22,11 @@ class App extends Component {
             <Switch>
               <Route exact path='/country/:id' component={CountryList} />
             </Switch>
+        <Switch>
+          <Route exact path='/country/:id' component={CountryList} />
+        </Switch>            <Switch>
+          <Route exact path='/country/:id' component={CountryList} />
+        </Switch>
           </div>
     );
   }
